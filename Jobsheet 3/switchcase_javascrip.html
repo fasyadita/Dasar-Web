@@ -20,8 +20,14 @@
                         hadiah= "uang RP.50.000";
                     break;
                     default : 
-                        document.write("<p>O")
+                        document.write("<p>Opps! anda salah pilih </p>");
                     }
+
+                if (hadiah===""){
+                    document.write("<p>Kamu gagal mendapat hadiah</p>");
+                } else {
+                    document.write("<h2>Selamat kamu mendapatkan "+hadiah+"<h/2>");
+                }
         </script>
     </body>
 </html>
