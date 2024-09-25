@@ -5,6 +5,14 @@ function hitungUmur($thn_lahir, $thn_sekarang){
     return $umur;
 }
 
-echo "Umur saya adalah ". hitungUmur(2004, 2024)." tahun";
+function perkenalan($nama, $salam = "Assalamaualaikum"){
+    echo $salam.",";
+    echo "Perkenalkan, nama saya ".$nama."<br/>";
+}
 
+echo "Umur saya adalah ". hitungUmur(2004, 2024)." tahun";
+echo "<br/>Senang berkenalan dengan anda<br/>";
+
+echo "<br/>";
+perkenalan("Fasya");
 ?>
