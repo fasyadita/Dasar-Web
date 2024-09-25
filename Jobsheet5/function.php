@@ -45,4 +45,4 @@ $ucapanSalam = "Selamat Pagi";
 perkenalan($saya);
 
 
-?> -->
+?> 
